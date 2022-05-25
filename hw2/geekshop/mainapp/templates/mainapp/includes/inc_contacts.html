@@ -1,10 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<div class="location">
+	{% for contac in contacts_file %}
+		<div class="location-1">
+			<i class="fa fa-map-marker fa-5x"></i>
+			<h4>{{ contac.city }}</h4>
+			<div class="contacts">
+				<h5>Телефон</h5>
+				<p>{{ contac.phone }}</p>
+			</div>
+			<div class="contacts">
+				<h5>Email</h5>
+				<p>{{ contac.email }}</p>
+			</div>
+			<div class="contacts">
+				<h5>Адрес</h5>
+				<p>{{ contac.address }}</p>
+			</div>
+		</div>
+    {% endfor %}
+</div>

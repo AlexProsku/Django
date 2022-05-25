@@ -1,6 +1,21 @@
-{
-  "name": "mainapp",
-  "version": "1.0.0",
-  "dependencies": {
-  }
-}
+
+[
+	{
+		"city": "Москва",
+		"phone": "+7-888-888-8888",
+		"email": "info@geekshop.ru",
+		"address": "В пределах МКАД"
+	},
+	{
+		"city": "Калач",
+		"phone": "+7-222-555-7777",
+		"email": "info2@geekshop.ru",
+		"address": "Ленина, 25"
+	},
+	{
+		"city": "Уфа",
+		"phone": "+7-333-555-7777",
+		"email": "info3@geekshop.ru",
+		"address": "Московский, 3"
+	}
+]
