@@ -1,0 +1,36 @@
+[
+	{
+		"model": "mainapp.category",
+		"pk": 4,
+		"fields": {
+			"name": "Шкафы",
+			"description": "Шкафы офисные"
+		}
+	},
+	{
+		"model": "mainapp.product",
+		"pk": 7,
+		"fields": {
+			"category": 4,
+			"name": "Шкаф ШАМ",
+			"image": "",
+			"short_desc": "Шкаф ШАМ-2",
+			"description": "Офисный вместительный шкаф с замком",
+			"price": "55000.00",
+			"quantity": 20
+		}
+	},
+	{
+		"model": "mainapp.product",
+		"pk": 8,
+		"fields": {
+			"category": 4,
+			"name": "Шкаф-купе",
+			"image": "",
+			"short_desc": "Шкаф-купе РИГА",
+			"description": "Шкаф для дома и офиса",
+			"price": "25000.00",
+			"quantity": 30
+		}
+	}
+]
